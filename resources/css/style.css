@@ -1,23 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
-/* reset */
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
 
 body {
     font-family: "Raleway", serif;
     color: rgb(212, 222, 231);
-    background-color: #0c0513;
+    background-color: #000000;
     text-align: center;
 }
+
+/* headings */
 
 .header--main {
     font-weight: normal;
     font-size: 50px;
 }
+
+.header--secondary {
+    font-weight: 300;
+    font-size: 42px;
+    color: rgb(212, 222, 231);
+}
+
+
+.header--subheader {
+    font-size: 21;
+    color: grey;
+}
+
+/* links */
 
 .link--cta {
     font-size: 16px;

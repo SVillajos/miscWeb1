@@ -7,10 +7,14 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: "Raleway", serif;
     color: rgb(212, 222, 231);
     background-color: #0c0513;
     text-align: center;
+}
+
+.header--main {
+    font-weight: normal;
+    font-size: 50px;
 }
